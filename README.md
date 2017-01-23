@@ -32,3 +32,7 @@ python evalb.py test.trees test.parsed.new
 Precision = 314/371 = 0.846
 Recall = 314/385 = 0.816
 F-1 score = 0.831
+
+#-------------------------------------------------------
+#process the result of stanford parser result
+./binarize.sh test.txt
